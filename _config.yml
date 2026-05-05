@@ -23,7 +23,7 @@ repository               : "jcastellanosjoo/jcastellanosjoo.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : images/unnamed.png
+  avatar           : ./images/unnamed.png
   name             : "Jose Abel Castellanos Joo"
   pronouns         : "he/his"
   bio              : "Short biography for the left-hand sidebar"
