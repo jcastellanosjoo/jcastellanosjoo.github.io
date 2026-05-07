@@ -13,8 +13,15 @@
   width: 100%;
   clear: both;
 
+  //TODO: Comeback and check if there is an update about this
+  //https://github.com/academicpages/academicpages.github.io/pull/3568/changes/476062072ead311bce04f5b472eaf231ef796702
+  //https://github.com/academicpages/academicpages.github.io/issues/3583
+  /* sticky footer fix start */
+  position: absolute;
+  bottom: 0em;
   /* keep footer in normal document flow so custom widgets do not overlap content */
   height: auto;
+  /* sticky footer fix end */
 
   margin-top: 3em;
 
