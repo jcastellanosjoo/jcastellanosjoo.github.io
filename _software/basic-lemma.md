@@ -1,0 +1,16 @@
+---
+title: "BasicLemmaCert"
+excerpt: "TODO [Code](https://github.com/typesAreSpaces/BasicLemmaCert)
+![](/images/basic-lemma.png)"
+collection: portfolio
+tags:
+- Computer Algebra
+- Certificate Computation
+- Real Algebraic Geometry
+order: 6
+---
+
+The code is available
+[here](https://github.com/typesAreSpaces/BasicLemmaCert)
+
+TODO
