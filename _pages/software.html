@@ -6,9 +6,13 @@ author_profile: true
 ---
 
 {% include base_path %}
+{% assign sorted_software = site.software 
+  | sort: 'order' 
+  | reverse %}
 
-
-{% for post in site.software %}
-  {% include archive-single.html %}
+{% for post in sorted_software %}
+  {% if post.path contains '.md' %}
+    {% include archive-single.html %}
+  {% endif %}
 {% endfor %}
 
