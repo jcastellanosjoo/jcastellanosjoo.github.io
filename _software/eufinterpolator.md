@@ -5,7 +5,7 @@ for the theory of equality and uninterpreted functions (EUF), octagonal
 formulas, and its combination.
 [Code](https://github.com/typesAreSpaces/EUFInterpolator)
 ![](/images/eufinterpolator.png)"
-collection: portfolio
+collection: software
 tags:
 - Formal Methods
 - Verification

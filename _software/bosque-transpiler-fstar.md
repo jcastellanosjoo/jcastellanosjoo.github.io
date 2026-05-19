@@ -4,7 +4,7 @@ excerpt: "Prototypical implementation of a transpiler embedding a subset
 of the Bosque semantics into the Proof-oriented programming language
 $$F^{*}$$.
 [Code](https://github.com/typesAreSpaces/BosqueLanguage/tree/fstar-implementation)"
-collection: portfolio
+collection: software
 tags:
 - Formal Methods
 - Verification

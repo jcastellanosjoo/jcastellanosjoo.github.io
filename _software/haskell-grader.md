@@ -3,7 +3,7 @@ title: "haskell-grader"
 excerpt: "Haskell application to automatically evaluate student
 assignments for CS 357: Declarative Programming at UNM.
 [Code](https://github.com/typesAreSpaces/haskell-grader)"
-collection: portfolio
+collection: software
 tags:
 - Teaching
 - Verification

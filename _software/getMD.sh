@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 for file in *.mmd; do
+  #addBibliographyMD.sh "$file" ../_bibliography/references.bib "${file%.*}".md
   output="${file%.*}".md
   pandoc -f markdown+raw_html+hard_line_breaks "$file" \
     --citeproc \

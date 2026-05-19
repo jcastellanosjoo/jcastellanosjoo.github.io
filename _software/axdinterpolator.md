@@ -7,7 +7,7 @@ formula in SMTLIB2 format, which allows compatibility with model
 checkers and invariant generators using such a format.
 [Code](https://github.com/typesAreSpaces/AXDInterpolator)
 ![](/images/axdinterpolator.png)"
-collection: portfolio
+collection: software
 tags:
 - Formal Methods
 - Verification
