@@ -20,7 +20,7 @@ redirect_from:
 - Functional: Haskell, Ocaml, Scala
 - Verification: Z3, Mathsat, SMTInterpol, $$F^{*}$$, Prover9, Mace4, Lean
 - Symbolic/Algebraic: Mathematica, Maple, Macaulay2, Singular
-- Document typesetting: \LaTeX, Pandoc, Madoko, Markdown, Org
+- Document typesetting: $$\LaTeX$$, Pandoc, Madoko, Markdown, Org
 - Web design: HTML, CSS, Javascript, Typescript, Jekyll
 
 ## Publications

@@ -9,3 +9,7 @@ build:
 deploy: build
 	mv _site public_html
 	rsync -avz --delete public_html jose.castellanosjoo@moons.cs.unm.edu:~/
+
+clean:
+	rm -rf _site
+	rm -rf public_html
