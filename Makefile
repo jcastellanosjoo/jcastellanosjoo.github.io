@@ -6,9 +6,9 @@ localhost:
 build:
 	bundle exec jekyll build  
 
-deploy: build
+deploy: clean build
 	mv _site public_html
-	rsync -avz --delete public_html jose.castellanosjoo@moons.cs.unm.edu:~/
+	rsync -avz --delete public_html jose.castellanosjoo@moons.cs.unm.edu:~/public_html
 
 clean:
 	rm -rf _site
