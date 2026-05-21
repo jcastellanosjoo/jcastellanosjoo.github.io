@@ -14,7 +14,7 @@ I completed my Ph.D. under the supervision of [Prof. Deepak Kapur](https://www.c
 I obtained my bachelor's degree in Electronics Engineering from [Universidad de las Americas Puebla](https://www.udlap.mx/web/en/)
 where I was advised by [Prof. Mauricio Osorio Galindo](https://sites.google.com/site/osoriomauri/). My undergraduate thesis work studied the paraconsistent logic $$C_1$$.
 
-Here you can find my [CV](todo) (updated: May, 2026).
+Here you can find my [CV](/files/cv/cv.pdf) (updated: May, 2026).
 
 ## Research Interests
 My research lies in the interplay between algebra and logic in verification applications and computer science. Key areas of my work include:
