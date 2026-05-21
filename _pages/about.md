@@ -7,11 +7,24 @@ redirect_from:
   - /about.html
 ---
 
-I'm a Ph.D. candidate at the [University of New Mexico](https://www.unm.edu/) in the [Computer Science Department](https://www.cs.unm.edu/) advised by [Prof. Deepak Kapur](https://www.cs.unm.edu/~kapur/) working on formal methods
-and computer algebra.  I'm interested in software verification, programming languages, commutative algebra, and non-classical logics.
+Hello there! I'm a recent Ph.D. graduate in Computer Science from the [University of New Mexico](https://www.unm.edu/). **I'm actively seeking postdoctoral research positions in areas related to computer algebra, formal methods, and verification.**
 
-I obtained my bacherlor's degree in electronics engineering from 
-[Universidad de las Americas Puebla](https://www.udlap.mx/web/en/)
-advised by [Prof. Mauricio Osorio Galindo](https://sites.google.com/site/osoriomauri/), working on the paraconsistent logic $$C_1$$.
+I completed my Ph.D. under the supervision of [Prof. Deepak Kapur](https://www.cs.unm.edu/~kapur/). My research focuses on the computation of certificates of membership in Archimedean quadratic modules in the univariate case. I defended my [Ph.D. thesis](/files/thesis.pdf) in May, 2026.
 
-<span style="color:red">TODO: add CV</span> Here is my resume.
+I obtained my bachelor's degree in Electronics Engineering from [Universidad de las Americas Puebla](https://www.udlap.mx/web/en/)
+where I was advised by [Prof. Mauricio Osorio Galindo](https://sites.google.com/site/osoriomauri/). My undergraduate thesis work studied the paraconsistent logic $$C_1$$.
+
+Here you can find my [CV](todo) (updated: May, 2026).
+
+## Research Interests
+My research lies in the interplay between algebra and logic in verification applications and computer science. Key areas of my work include:
+
+- Formal Methods
+- Verification
+- Archimedean quadratic modules
+- Groebner basis methods
+- Quantifier-free interpolation for decidable logics
+- Non-classical logics
+
+## Contact
+- Email: `jcastellanos34` at `gmail.com`
