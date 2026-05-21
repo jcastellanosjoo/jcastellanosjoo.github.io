@@ -1,4 +1,5 @@
 # Ignore the contents of the _site directory and other cache directories
+public_html/
 _site/
 .sass-cache/
 
