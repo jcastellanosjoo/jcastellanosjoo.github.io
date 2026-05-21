@@ -1,4 +1,4 @@
-.PHONY: clean localhost
+.PHONY: clean 
 
 localhost:
 	bundle exec jekyll serve -l -H localhost --verbose
@@ -6,7 +6,9 @@ localhost:
 build:
 	bundle exec jekyll build  
 
-deploy: clean build
+deploy: 
+	make clean
+	make build
 	mv _site public_html
 	rsync -avz --delete public_html jose.castellanosjoo@moons.cs.unm.edu:~/public_html
 
