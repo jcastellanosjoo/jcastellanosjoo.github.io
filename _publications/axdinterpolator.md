@@ -20,5 +20,3 @@ which allows compatibility with model checkers and invariant generators using su
 compare our algorithm with state-of-the-art interpolation engines. Our experiments using unsatisfiable
 formulæ extracted with the model checker UAutomizer show the feasibility of our tool. For that purpose,
 we used C programs from the ReachSafety-Arrays and MemSafety-Arrays tracks of SV-COMP.
-
-[Video presentation](https://www.youtube.com/watch?v=Hq7IJZXZQbw)

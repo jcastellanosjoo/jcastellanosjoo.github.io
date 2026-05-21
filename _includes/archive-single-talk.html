@@ -38,5 +38,13 @@
     {% if post.date %}<p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}</p>{% endif %}
     {% if post.venue %}<p class="archive__item-excerpt" itemprop="description">{{post.type}}, {{ post.venue }},  {{post.location}} {% endif %}
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %}
+
+    {% if post.slidesurl and post.videourl %}
+      <p><a href="{{ post.slidesurl }}">Slides</a> | <a href="{{ post.videourl }}">Video Presentation</a></p>
+    {% elsif post.slidesurl %}
+      <p><a href="{{ post.slidesurl }}">Slides</a></p>
+    {% elsif post.videourl %}
+      <p><a href="{{ post.videourl }}">Video Presentation</a></p>
+    {% endif %}
   </article>
 </div>
