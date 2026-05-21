@@ -129,3 +129,4 @@ The steps to execute the benchmarking script are the following:
 2.  `cd` into tests/benchmark/scripts and execute the script
     `./SMT-2021-submission-results.sh`
 3.  The process will conclude with a Latex-compatible table as output.
+

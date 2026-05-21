@@ -68,6 +68,6 @@ $$x+1+\frac{9}{10}x^2 = (\frac{1}{2}x+1)^2+\frac{13}{20}x^2$$
 
 ## References
 
-Shang, Weifeng, Chenqi Mou, Jose Abel Castellanos Joo, and Deepak Kapur.
-2025. *Computing Certificates of Strictly Positive Polynomials in
-Archimedean Quadratic Modules*. <https://arxiv.org/abs/2503.11119>.
+
+Shang, Weifeng, Chenqi Mou, Jose Abel Castellanos Joo, and Deepak Kapur. 2025. *Computing Certificates of Strictly Positive Polynomials in Archimedean Quadratic Modules*. <https://arxiv.org/abs/2503.11119>.
+

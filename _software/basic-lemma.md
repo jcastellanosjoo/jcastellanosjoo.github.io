@@ -71,6 +71,6 @@ $$[-1, 1]$$ as these polynomials are non-negative over $$\mathbb{R}$$.
 
 ## References
 
-Kuhlmann, S., M. Marshall, and N. Schwartz. 2005. *Positivity, Sums of
-Squares and the Multi-Dimensional Moment Problem II*. 5 (4): 583--606.
-<https://doi.org/10.1515/advg.2005.5.4.583>.
+
+Kuhlmann, S., M. Marshall, and N. Schwartz. 2005. *Positivity, Sums of Squares and the Multi-Dimensional Moment Problem II*. 5 (4): 583--606. <https://doi.org/10.1515/advg.2005.5.4.583>.
+

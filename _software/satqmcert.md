@@ -63,17 +63,18 @@ For examples, check the directory `tests`.
 
 ## References
 
-Kuhlmann, S., M. Marshall, and N. Schwartz. 2005. *Positivity, Sums of
-Squares and the Multi-Dimensional Moment Problem II*. 5 (4): 583--606.
-<https://doi.org/10.1515/advg.2005.5.4.583>.
 
-Shang, Weifeng, Chenqi Mou, Jose Abel Castellanos Joo, and Deepak Kapur. 2025. *Computing Certificates of Strictly Positive Polynomials in
-Archimedean Quadratic Modules*. <https://arxiv.org/abs/2503.11119>.
+Kuhlmann, S., M. Marshall, and N. Schwartz. 2005. *Positivity, Sums of Squares and the Multi-Dimensional Moment Problem II*. 5 (4): 583--606. <https://doi.org/10.1515/advg.2005.5.4.583>.
+
+Shang, Weifeng, Chenqi Mou, Jose Abel Castellanos Joo, and Deepak Kapur. 2025. *Computing Certificates of Strictly Positive Polynomials in Archimedean Quadratic Modules*. <https://arxiv.org/abs/2503.11119>.
 
 
 
-Castellanos-Joo, Jose Abel, and Deepak Kapur. 2026. *Computing
-Certificates in Archimedean Univariate Saturated Quadratic Modules*.
-<https://arxiv.org/abs/2605.18980>.
+
+
+Castellanos-Joo, Jose Abel, and Deepak Kapur. 2026. *Computing Certificates in Archimedean Univariate Saturated Quadratic Modules*. <https://arxiv.org/abs/2605.18980>.
+
+
+
 
 
