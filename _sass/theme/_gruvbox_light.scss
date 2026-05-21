@@ -1,0 +1,68 @@
+/* ==========================================================================
+    GRUVBOX THEME - LIGHT VERSION
+    ========================================================================== */
+
+/* Color codes used for the theme (Gruvbox light) */
+$primary-color              : #d79921; // Gruvbox yellow
+
+$gray                       : #7c6f64;
+$dark-gray                  : mix(#000, $gray, 40%);
+$darker-gray                : mix(#000, $gray, 60%);
+$light-gray                 : mix(#f2e5bc, $gray, 50%);
+
+/* Backgrounds */
+$background                 : #fbf1c7;
+$background-light           : #ebdbb2;
+$background-lighter         : #d5c4a1;
+
+/* Foreground text */
+$text                       : #3c3836;
+
+/* Links (Gruvbox blue base) */
+$link                       : #458588;
+$link-dark                  : mix(#000, $link, 25%);
+$link-light                 : mix(#83a598, $link, 25%);
+
+/* Semantic colors (Gruvbox light palette) */
+$danger-color               : #cc241d;
+$info-color                 : #458588;
+$notice-color               : #7c6f64;
+$success-color              : #98971a;
+$warning-color              : #d79921;
+
+/* Other basic settings */
+$border-radius              : 4px;
+$box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.12);
+$global-transition          : all 0.2s ease-in-out;
+$masthead-height            : 70px;
+$navicon-width              : 28px;
+$navicon-height             : 4px;
+$sidebar-link-max-width     : 250px;
+$sidebar-screen-min-width   : 1024px;
+
+/* Light theme for the site */
+html[data-theme="light"] {
+    --global-base-color                 : #{$primary-color};
+    --global-bg-color                   : #{$background};
+    --global-footer-bg-color            : #{$background};
+    --global-border-color               : #{$background-lighter};
+    --global-dark-border-color          : #{$background-light};
+
+    /* Code blocks (light Gruvbox style) */
+    --global-code-background-color      : #ebdbb2;
+    --global-code-text-color            : #{$text};
+
+    --global-fig-caption-color          : #{$gray};
+
+    --global-link-color                 : #{$link};
+    --global-link-color-hover           : #{$primary-color};
+    --global-link-color-visited         : #{$link-light};
+
+    --global-masthead-link-color        : #{$text};
+    --global-masthead-link-color-hover  : #{$primary-color};
+
+    --global-text-color                 : #{$text};
+    --global-text-color-light           : #504945;
+
+    --global-thead-color                : #{$background-lighter};
+}

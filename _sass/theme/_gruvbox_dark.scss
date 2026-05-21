@@ -1,0 +1,67 @@
+/* ==========================================================================
+    GRUVBOX THEME - DARK VERSION
+    ========================================================================== */
+
+/* Color codes used for the theme (Gruvbox dark hard) */
+$primary-color              : #fabd2f; // yellow accent (more Gruvbox than cyan)
+$gray                       : #a89984;
+$dark-gray                  : mix(#000, $gray, 40%);
+$darker-gray                : mix(#000, $gray, 60%);
+$light-gray                 : mix(#fbf1c7, $gray, 50%);
+
+/* Backgrounds */
+$background                 : #1d2021;
+$background-light           : #282828;
+$background-lighter         : #3c3836;
+
+/* Foreground */
+$text                       : #ebdbb2;
+
+/* Links (Gruvbox blue + aqua accents) */
+$link                       : #83a598;
+$link-dark                  : mix(#000, $link, 25%);
+$link-light                 : mix(#8ec07c, $link, 25%);
+
+/* Semantic colors (Gruvbox mapped) */
+$danger-color               : #fb4934;
+$info-color                 : #83a598;
+$notice-color               : #a89984;
+$success-color              : #b8bb26;
+$warning-color              : #fabd2f;
+
+/* Other basic settings for the template */
+$border-radius              : 4px;
+$box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.35);
+$global-transition          : all 0.2s ease-in-out;
+$masthead-height            : 70px;
+$navicon-width              : 28px;
+$navicon-height             : 4px;
+$sidebar-link-max-width     : 250px;
+$sidebar-screen-min-width   : 1024px;
+
+/* Dark theme for the site */
+html[data-theme="dark"] {
+    --global-base-color                 : #{$primary-color};
+    --global-bg-color                   : #{$background};
+    --global-footer-bg-color            : #{$background};
+    --global-border-color               : #{$background-light};
+    --global-dark-border-color          : #{$background-lighter};
+
+    /* Code (Gruvbox style inverted correctly) */
+    --global-code-background-color      : #282828;
+    --global-code-text-color            : #{$text};
+
+    --global-fig-caption-color          : #{$gray};
+
+    --global-link-color                 : #{$link};
+    --global-link-color-hover           : #{$primary-color};
+    --global-link-color-visited         : #{$link-light};
+
+    --global-masthead-link-color        : #{$text};
+    --global-masthead-link-color-hover  : #{$primary-color};
+
+    --global-text-color                 : #{$text};
+    --global-text-color-light           : #d5c4a1;
+
+    --global-thead-color                : #{$background-lighter};
+}

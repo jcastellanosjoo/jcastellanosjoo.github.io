@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+site_theme               : "gruvbox" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Jose Abel Castellanos Joo"
 title_separator          : "-"
 name                     : &name "Jose Abel Castellanos Joo"
