@@ -6,7 +6,7 @@ permalink: /talks/axdinterpolator
 venue: "19th International Workshop on Satisfiability Modulo Theories"
 date: 2021-07-18
 location: "Online"
-slidesurl: '/files/smt21-paper15-full-presentation.pdf'
+slidesurl: '/~jose.castellanosjoo/files/smt21-paper15-full-presentation.pdf'
 videourl: 'https://www.youtube.com/watch?v=Hq7IJZXZQbw'
 ---
 Several approaches toward quantifier-free interpolation algorithms of theories involving arrays have been proposed by extending the language using a binary function skolemizing the extensionality principle.

@@ -3,7 +3,7 @@ title: "StrictlyPositiveCert"
 excerpt: "A maple package to compute certificates of strictly positive
 polynomial over Archimedean Quadratic Modules.
 [Code](https://github.com/typesAreSpaces/StrictlyPositiveCert)
-![](/images/strictly-positive-cert.png)"
+![](/~jose.castellanosjoo/images/strictly-positive-cert.png)"
 collection: software
 tags:
 - Computer Algebra

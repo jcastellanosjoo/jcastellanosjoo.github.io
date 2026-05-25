@@ -6,7 +6,7 @@ Mathsat, or SMTInterpol as interpolation engines. The tool returns a
 formula in SMTLIB2 format, which allows compatibility with model
 checkers and invariant generators using such a format.
 [Code](https://github.com/typesAreSpaces/AXDInterpolator)
-![](/images/axdinterpolator.png)"
+![](/~jose.castellanosjoo/images/axdinterpolator.png)"
 collection: software
 tags:
 - Formal Methods

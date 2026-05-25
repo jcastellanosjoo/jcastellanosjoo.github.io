@@ -9,7 +9,7 @@ permalink: /talks/thesis_defense
 venue: "Thesis Defense"
 date: 2026-03-25
 location: "Albuquerque, New Mexico, USA"
-slidesurl: '/files/Thesis_Defense.pdf'
+slidesurl: '/~jose.castellanosjoo/files/Thesis_Defense.pdf'
 videourl: 'https://www.youtube.com/watch?v=MPOVk7uQdSQ&t=219s'
 ---
 Polynomials have been found to be a powerful tool over hundreds of years for
