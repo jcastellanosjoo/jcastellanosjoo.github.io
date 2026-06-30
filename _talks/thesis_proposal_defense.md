@@ -6,7 +6,7 @@ permalink: /talks/thesis_proposal_defense
 venue: "Thesis Proposal Defense"
 date: 2023-09-13
 location: "Albuquerque, New Mexico, USA"
-slidesurl: '/files/thesis-proposal-defense-v4.pdf'
+slidesurl: '/~jose.castellanosjoo/files/thesis-proposal-defense-v4.pdf'
 ---
 This thesis will study algorithms to compute certificates for members in
 compact quadratic modules in univariate polynomial rings and

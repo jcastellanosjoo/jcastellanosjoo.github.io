@@ -3,7 +3,7 @@ title: "SatQMCert"
 excerpt: "A maple package to compute certificates of members in
 Archimedean Saturated Quadratic Modules.
 [Code](https://github.com/typesAreSpaces/SatQMCert)
-![](/images/sat-qm-cert.png)"
+![](/~jose.castellanosjoo/images/sat-qm-cert.png)"
 collection: software
 tags:
 - Computer Algebra

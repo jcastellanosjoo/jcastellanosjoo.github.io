@@ -6,7 +6,7 @@ permalink: /publication/axdinterpolator
 excerpt:
 date: 2021-07-18
 venue: '19th International Workshop on Satisfiability Modulo Theories co-located with 33rd International Conference on Computer Aided Verification (CAV 2021)'
-slidesurl: '/files/smt21-paper15-full-presentation.pdf'
+slidesurl: '/~jose.castellanosjoo/files/smt21-paper15-full-presentation.pdf'
 paperurl: 'https://ceur-ws.org/Vol-2908/paper15.pdf'
 citation: 'J. Castellanos Joo, S. Ghilardi, A. Gianola, and D. Kapur, “AXDInterpolator: A tool for computing interpolants for arrays with maxdiff”, in 19th International Workshop on Satisfiability Modulo Theories co-located with 33rd International Conference on Computer Aided Verification (CAV 2021), CEUR-WS.org, vol. 2908, 2021, pp. 40–52.'
 ---

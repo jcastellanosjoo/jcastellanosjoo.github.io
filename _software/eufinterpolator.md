@@ -4,7 +4,7 @@ excerpt: "Master thesis work implementing new interpolation algorithms
 for the theory of equality and uninterpreted functions (EUF), octagonal
 formulas, and its combination.
 [Code](https://github.com/typesAreSpaces/EUFInterpolator)
-![](/images/eufinterpolator.png)"
+![](/~jose.castellanosjoo/images/eufinterpolator.png)"
 collection: software
 tags:
 - Formal Methods

@@ -6,7 +6,7 @@ permalink: /talks/implementation_uniform_interpolation
 venue: "Master Thesis Defense, University of New Mexico"
 date: 2020-10-20
 location: "Albuquerque, New Mexico, USA"
-slidesurl: '/files/master_thesis_defense_2020.pdf'
+slidesurl: '/~jose.castellanosjoo/files/master_thesis_defense_2020.pdf'
 ---
 This thesis discusses algorithms for the uniform interpolation problem
 and presents their implementation for the following theories:
