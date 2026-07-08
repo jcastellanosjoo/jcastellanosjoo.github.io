@@ -3,7 +3,7 @@ title: "BasicLemma"
 excerpt: "A maple package to compute Bezout-like polynomials for coprime
 and non-negative polynomials over compact semialgebraic sets.
 [Code](https://github.com/typesAreSpaces/BasicLemma)
-![](/~jose.castellanosjoo/images/basic-lemma.png)"
+![](/images/basic-lemma.png)"
 collection: software
 tags:
 - Computer Algebra
