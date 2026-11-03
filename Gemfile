@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+ruby '3.4.12'
+
 group :jekyll_plugins do
   gem 'jekyll'
   gem 'jekyll-feed'
@@ -9,7 +11,7 @@ group :jekyll_plugins do
   gem 'webrick', '~> 1.8'
 end
 
-gem 'github-pages'
+gem 'github-pages', '~> 232'
 gem 'connection_pool', '2.5.0'
 gem 'csv'
 gem 'bigdecimal'

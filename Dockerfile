@@ -1,5 +1,8 @@
 # Base image: Ruby with necessary dependencies for Jekyll
-FROM ruby:3.2
+FROM ruby:3.4.12
+
+# Ignore host-specific Bundler settings when the repository is mounted.
+ENV BUNDLE_IGNORE_CONFIG=true
 
 # Install dependencies
 RUN apt-get update && apt-get install -y \
@@ -22,14 +25,13 @@ RUN chown -R vscode:vscode /usr/src/app
 USER vscode
 
 # Copy Gemfile into the container (necessary for `bundle install`)
-COPY Gemfile ./
+COPY Gemfile Gemfile.lock ./
 
 
 
 # Install bundler and dependencies
-RUN gem install connection_pool:2.5.0
-RUN gem install bundler:2.3.26
-RUN bundle install
+RUN gem install bundler --version 4.0.15 --no-document
+RUN bundle _4.0.15_ install
 
 # Command to serve the Jekyll site
-CMD ["jekyll", "serve", "-H", "0.0.0.0", "-w", "--config", "_config.yml,_config_docker.yml"]
+CMD ["bundle", "exec", "jekyll", "serve", "-H", "0.0.0.0", "-w", "--config", "_config.yml,_config_docker.yml"]

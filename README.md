@@ -27,37 +27,37 @@ When you are initially working on your website, it is very useful to be able to 
 1. Clone the repository and made updates as detailed above.
 
 ### Using a different IDE
-1. Make sure you have ruby-dev, bundler, and nodejs installed
-    
-    On most Linux distributions and [Windows Subsystem Linux](https://learn.microsoft.com/en-us/windows/wsl/about) the command is:
-    ```bash
-    sudo apt install ruby-dev ruby-bundler nodejs
-    ```
-    If you see error `Unable to locate package ruby-bundler`, `Unable to locate package nodejs `, run the following:
-    ```bash
-    sudo apt update && sudo apt upgrade -y
-    ```
-    then try running `sudo apt install ruby-dev ruby-bundler nodejs` again.
 
-    On MacOS the commands are:
+1. Install [rbenv and ruby-build](https://github.com/rbenv/rbenv#installation), initialize rbenv in your shell, and install Node.js. On macOS:
+
     ```bash
-    brew install ruby
-    brew install node
-    gem install bundler
+    brew install rbenv ruby-build node
+    rbenv init
     ```
-1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
 
-    If you see file permission error like `Fetching bundler-2.6.3.gem ERROR:  While executing gem (Gem::FilePermissionError) You don't have write permissions for the /var/lib/gems/3.2.0 directory.` or `Bundler::PermissionError: There was an error while trying to write to /usr/local/bin.`
-    Install Gems Locally (Recommended):
+    Restart your shell after initialization. On Linux or Windows Subsystem for Linux, follow the rbenv installation instructions and install the build dependencies required by ruby-build and native gems.
+
+1. From the repository directory, install the Ruby version pinned in `.ruby-version`:
+
     ```bash
-    bundle config set --local path 'vendor/bundle'
+    rbenv install -s "$(cat .ruby-version)"
+    ruby -v
+    rbenv which ruby
     ```
-    then try run `bundle install` again. If succeeded, you should see a folder called `vendor` and `.bundle`.
 
-1. Run `jekyll serve -l -H localhost` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change to Markdown (*.md) and HTML files, while changes to the core template and configuration (i.e., `_config.yml`) will require stopping and restarting Jekyll.
-    You may also try `bundle exec jekyll serve -l -H localhost` to ensure jekyll to use specific dependencies on your own local machine.
+    Ruby should report `3.4.12`, and its path should be under your rbenv `versions` directory. The `.ruby-version` file selects this Ruby automatically when you enter the repository; the Gemfile also enforces this version.
 
-If you are running on Linux it may be necessary to install some additional dependencies prior to being able to run locally: `sudo apt install build-essential gcc make`
+1. Install the Bundler version recorded in `Gemfile.lock`, then configure project-local gems:
+
+    ```bash
+    gem install bundler --version 4.0.15 --no-document
+    bundle config set --local path vendor/bundle
+    bundle install
+    ```
+
+    Gems are installed in `vendor/bundle`, and the local configuration is saved in `.bundle/config`. Both directories are ignored by Git. Keep `Gemfile.lock` in version control: it records the dependency versions needed to reproduce the build. Use `bundle install` when returning to the project; update dependencies deliberately with `bundle update` and review the resulting lockfile changes. Do not delete the lockfile as a troubleshooting step.
+
+1. Run `make build` to verify the site, or `make` to preview it at `http://localhost:4000`. The preview rebuilds automatically after Markdown and HTML changes. Restart it after changing `_config.yml`.
 
 ## Using Docker
 
